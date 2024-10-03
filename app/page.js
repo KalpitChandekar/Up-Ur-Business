@@ -1,9 +1,13 @@
+import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 
 const page = () => {
   return (
-    <div className="pt-6">
-      <Navbar />
+    <div>
+      <div className="pt-6">
+        <Navbar />
+      </div>
+      <Hero />
     </div>
   );
 };
