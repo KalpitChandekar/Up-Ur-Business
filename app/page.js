@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import Customers from "@/components/Customers";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import MainService from "@/components/MainService";
 import Navbar from "@/components/Navbar";
@@ -35,6 +36,7 @@ const page = () => {
       <MainService />
       <Testimonials />
       <Contact />
+      <Footer />
     </div>
   );
 };
