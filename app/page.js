@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import MainService from "@/components/MainService";
 import Navbar from "@/components/Navbar";
 import Service from "@/components/Service";
-import Testimonials from "@/components/Tesimonials";
+import Testimonials from "@/components/Testimonials";
 
 const page = () => {
   return (
