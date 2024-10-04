@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Customers from "@/components/Customers";
 import Hero from "@/components/Hero";
 import MainService from "@/components/MainService";
@@ -33,6 +34,7 @@ const page = () => {
       />
       <MainService />
       <Testimonials />
+      <Contact />
     </div>
   );
 };
