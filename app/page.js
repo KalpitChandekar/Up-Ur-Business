@@ -1,5 +1,6 @@
 import Customers from "@/components/Customers";
 import Hero from "@/components/Hero";
+import MainService from "@/components/MainService";
 import Navbar from "@/components/Navbar";
 import Service from "@/components/Service";
 
@@ -29,6 +30,7 @@ const page = () => {
         imgUrl="/service4.png"
         className={"flex-row-reverse"}
       />
+      <MainService />
     </div>
   );
 };
