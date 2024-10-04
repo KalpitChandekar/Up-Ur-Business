@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <div className="max-w-6xl mx-auto flex my-10 items-center">
       <div className="w-1/2 flex flex-col gap-8">
-        <h1 className="text-7xl">
+        <h1 className="text-7xl font-bold text-shadow">
           How to <span className="text-pink">level up</span> your business
         </h1>
-        <p className="text-gray-500">
+        <p className="text-primary">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus
           tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis.
         </p>
