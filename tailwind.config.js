@@ -11,6 +11,7 @@ module.exports = {
         pink: "#FF87B0",
         purple: "#7C76BB",
         primary: "#454545",
+        secondary: "#9B9B9B",
       },
       backgroundColor: {
         purple: "#7C76BB",
@@ -18,7 +19,19 @@ module.exports = {
         footer: "#F6FBFF",
         circle: "#DCF0FF",
       },
+      textShadow: {
+        default: "2px 2px 4px rgba(124, 118, 187, 0.3)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".text-shadow": {
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 };
