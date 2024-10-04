@@ -11,7 +11,6 @@ module.exports = {
         pink: "#FF87B0",
         purple: "#7C76BB",
         primary: "#454545",
-        secondary: "#9B9B9B",
       },
       backgroundColor: {
         purple: "#7C76BB",

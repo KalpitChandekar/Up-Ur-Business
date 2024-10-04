@@ -34,7 +34,7 @@ const Card = ({ imgUrl, alt, width, height, title, description }) => (
   <div className="rounded-2xl flex flex-col bg-primary py-8 px-4 text-center items-center">
     <Image src={imgUrl} alt={alt} width={width} height={height} />
     <h1 className="text-xl font-semibold">{title}</h1>
-    <p className="text-sm text-secondary my-8">{description}</p>
+    <p className="text-sm text-primary my-8">{description}</p>
     <button className="flex gap-2 py-2 w-36 justify-center border-2 border-[#7C76BB] rounded-lg">
       Learn more
     </button>
