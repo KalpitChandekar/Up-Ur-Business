@@ -15,7 +15,7 @@ module.exports = {
       },
       backgroundColor: {
         purple: "#7C76BB",
-        primary: "#27A3FF",
+        primary: "#E6F3FF",
         footer: "#F6FBFF",
         circle: "#DCF0FF",
       },

@@ -7,7 +7,7 @@ const Service = ({ title, imgUrl, className }) => {
       <div className="w-1/2 flex flex-col gap-6">
         <h2 className="text-pink">Portfolio Service</h2>
         <h1 className="text-4xl font-semibold">{title}</h1>
-        <p className="text-primary">
+        <p className="text-primary text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
           euismod quis sit gravida pharetra sit. Cursus vel enim pretium
           vulputate semper sem elit magna neque. Aliquet adipisc
