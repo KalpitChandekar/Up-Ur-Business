@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const Customers = () => {
   return (
-    <div className="max-w-6xl mx-auto my-20 flex flex-col gap-8 items-center">
+    <div className="max-w-6xl mx-auto px-4 md:px-0 my-20 hidden md:flex flex-col gap-8 items-center">
       <div className="flex items-center">
         <ChevronLeft size={14} />
         <h1>We work with customers brands and startups</h1>
         <ChevronRight size={14} />
       </div>
-      <div className="max-w-4xl flex w-full justify-between items-center">
+      <div className="md:max-w-4xl flex w-full justify-between items-center">
         <Image
           src="/samsung.png"
           alt="Samsung"

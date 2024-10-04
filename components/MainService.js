@@ -42,7 +42,7 @@ const Card = ({ imgUrl, alt, width, height, title, description }) => (
 );
 const MainService = () => {
   return (
-    <div className="max-w-6xl mx-auto my-20 flex flex-col gap-20 items-center justify-center">
+    <div className="max-w-6xl mx-auto px-4 md:px-0 my-20 flex flex-col gap-20 items-center justify-center">
       <div className="max-w-2xl flex flex-col gap-4 text-center">
         <h1 className="text-4xl font-semibold">Our main services</h1>
         <p className="text-primary text-sm">
@@ -51,7 +51,7 @@ const MainService = () => {
           in ut dolor urna.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-3 gap-10">
         {card.map((item, index) => (
           <Card key={index} {...item} />
         ))}

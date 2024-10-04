@@ -3,8 +3,10 @@ import Image from "next/image";
 
 const Service = ({ title, imgUrl, className }) => {
   return (
-    <div className={`max-w-6xl mx-auto flex items-center my-20 ${className}`}>
-      <div className="w-1/2 flex flex-col gap-6">
+    <div
+      className={`max-w-6xl mx-auto flex items-center px-4 md:px-0 my-20 ${className}`}
+    >
+      <div className="md:w-1/2 flex flex-col gap-6">
         <h2 className="text-pink">Portfolio Service</h2>
         <h1 className="text-4xl font-semibold">{title}</h1>
         <p className="text-primary text-sm">
@@ -20,7 +22,7 @@ const Service = ({ title, imgUrl, className }) => {
           <h1 className="border-b-2 border-purple">Case study</h1>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="md:w-1/2">
         <Image src={imgUrl} alt="service" width={953} height={715} />
       </div>
     </div>

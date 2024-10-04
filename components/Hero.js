@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="max-w-6xl mx-auto flex my-10 items-center">
-      <div className="w-1/2 flex flex-col gap-8">
+    <div className="max-w-6xl mx-auto flex md:flex-row px-4 md:px-0 flex-col my-10 items-center">
+      <div className="md:w-1/2 flex flex-col gap-8">
         <h1 className="text-7xl font-bold text-shadow">
           How to <span className="text-pink">level up</span> your business
         </h1>
@@ -22,7 +22,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="md:w-1/2">
         <Image src="/hero.png" width={1163} height={888} />
       </div>
     </div>

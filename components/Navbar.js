@@ -2,12 +2,12 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <div className="max-w-6xl mx-auto flex justify-between items-center">
+    <div className="max-w-6xl mx-auto flex justify-between items-center px-4 md:px-0">
       <a href="#">
         <Logo />
       </a>
       <div className="flex gap-10 ">
-        <ul className="flex space-x-8 text-purple items-center">
+        <ul className="md:flex space-x-8 text-purple hidden items-center">
           <li>
             <a href="#" className="">
               Home

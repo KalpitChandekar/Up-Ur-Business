@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <div className="max-w-6xl mx-auto flex flex-col gap-10 py-20">
+    <div className="max-w-6xl mx-auto px-4 md:px-0 flex flex-col gap-10 py-20">
       <h1 className="text-4xl font-semibold text-center">Testimonials</h1>
       <div className="flex flex-col gap-16">
-        <div className="flex">
-          <div className="w-1/2">
+        <div className="flex md:flex-row flex-col-reverse">
+          <div className="md:w-1/2">
             <Image
               src="/award.png"
               alt="testimonials"
@@ -14,7 +14,7 @@ const Testimonials = () => {
               height={797}
             />
           </div>
-          <div className="w-1/2 relative flex items-center">
+          <div className="md:w-1/2 relative flex items-center">
             <Image
               src="/left-quote1.png"
               alt="quote"
@@ -56,7 +56,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-28">
+        <div className="grid md:grid-cols-3 gap-28">
           <div className="flex flex-col gap-4">
             <Image
               src="/testimonial2.png"
