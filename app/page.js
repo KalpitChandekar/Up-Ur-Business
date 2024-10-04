@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import MainService from "@/components/MainService";
 import Navbar from "@/components/Navbar";
 import Service from "@/components/Service";
+import Testimonials from "@/components/Tesimonials";
 
 const page = () => {
   return (
@@ -31,6 +32,7 @@ const page = () => {
         className={"flex-row-reverse"}
       />
       <MainService />
+      <Testimonials />
     </div>
   );
 };
